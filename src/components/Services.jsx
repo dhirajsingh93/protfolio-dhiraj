@@ -65,7 +65,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6 sm:px-10 mb-8 flex items-center justify-between">
 
           <div className="font-mono text-xs uppercase tracking-[0.25em] text-[#FF9A3D] mb-5 font-bold">
-              04 — Services & Capabilities
+              03 — Services & Capabilities
             </div>
 
         {selectedServiceTitle && (
