@@ -98,8 +98,8 @@ const projects = {
 
       image: vkEngineers,
 
-      github: "#",
-      live: "#",
+      github: "https://github.com/Aadi0427/vk-Engineer",
+      live: "https://vkengineer.com/",
     },
 
     {
@@ -121,8 +121,8 @@ const projects = {
 
       image:umadeepSchool,
 
-      github: "#",
-      live: "#",
+      github: "https://github.com/dhirajsingh93/Umadeep-Convent-School",
+      live: "https://umadeepconventschool.com/",
     },
   ],
 
