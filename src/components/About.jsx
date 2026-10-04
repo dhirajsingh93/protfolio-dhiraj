@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapPin, GraduationCap, Briefcase, Settings, CheckCircle2, Github, Linkedin, Mail, Instagram} from 'lucide-react';
 import { handleGlassMouseMove, handleGlassMouseLeave } from '../utils/useGlassTilt';
-import aboutPortrait from '../assets/about-portrait.jpg';
+import aboutPortrait from '../assets/about-portrait.png';
 import { MessageCircleMore } from "lucide-react";
 
 export default function About() {
