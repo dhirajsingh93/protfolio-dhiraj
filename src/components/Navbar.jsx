@@ -54,7 +54,7 @@ export default function Navbar() {
   return (
     <nav
       id="mainNav"
-      className={`absolute top-4 left-1/2 -translate-x-1/2 w-[92%] max-w-7xl z-[100] backdrop-blur-xl transition-all duration-500 ease-in-out rounded-2xl border ${
+      className={`absolute top-2 left-1/2 -translate-x-1/2 w-[92%] max-w-7xl z-[100] backdrop-blur-xl transition-all duration-500 ease-in-out rounded-2xl border  ${
         isInHero
           ? "opacity-100 translate-y-0 pointer-events-auto"
           : "opacity-0 -translate-y-6 pointer-events-none"

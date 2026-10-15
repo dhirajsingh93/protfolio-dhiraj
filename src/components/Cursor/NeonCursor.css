@@ -1,0 +1,57 @@
+/* Neon Cursor Styles */
+.neon-cursor-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 99999;
+  overflow: hidden;
+}
+
+.cursor-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffbb55 0%, #ff5722 100%);
+  box-shadow: 0 0 12px rgba(255, 140, 40, 0.9), 0 0 25px rgba(255, 87, 34, 0.6);
+  pointer-events: none;
+  will-change: transform;
+}
+
+.cursor-trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(236, 101, 23);
+  box-shadow: 0 0 16px rgba(236, 101, 23, 0.45);
+  pointer-events: none;
+  will-change: transform;
+}
+
+.cursor-glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 150, 50, 0.5) 0%, rgba(236, 101, 23, 0.2) 50%, transparent 75%);
+  pointer-events: none;
+  filter: blur(6px);
+  will-change: transform;
+}
+
+/* Hide custom cursor on mobile devices and coarse pointers */
+@media (max-width: 768px), (pointer: coarse) {
+  .neon-cursor-container {
+    display: none !important;
+  }
+}
